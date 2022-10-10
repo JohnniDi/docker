@@ -23,7 +23,7 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            tinygo/tinygo
+            flimburg/tinygo
             ghcr.io/${{ github.repository }}/tinygo
           tags: |
             type=ref,event=branch
